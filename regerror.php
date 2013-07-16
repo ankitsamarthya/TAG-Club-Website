@@ -9,7 +9,7 @@
     </head>
     <body>
        <?php
-       echo "<center><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the registration number already registered. Try with different Registration Number. Redirecting in 5 seconds.</center>";
+       echo "<center><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registration number already registered. Try with different Registration Number. Redirecting in 5 seconds.</center>";
        header('Refresh:5; url=index.php');
        $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
        echo "<center><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='$url'>Go Back</a></center>";

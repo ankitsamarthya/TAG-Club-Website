@@ -9,8 +9,8 @@
     </head>
     <body>
 <?php
-$teamno = $_GET['tn'];
-echo "<center><br/><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You Are Successfully Registered. Your Team Number is <br/><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$teamno</h1> <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kindly Come with Your Team Number between 9:30am to 10:30am on 2nd Sept to confirm your registration.</h3></center>";
+
+echo "<center><br/><h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You Are Successfully Registered.</h3></center>";
 
 echo "<center><br/><br/><a href='index.php'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Continue</a></center>";
 
